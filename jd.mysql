@@ -1,0 +1,9 @@
+CREATE TABLE Customers (
+    customer_id varchar(255) NOT NULL,
+    name varchar(255) NOT NULL,
+    gender varchar(255),
+    country varchar(255),
+    Age int,
+    PRIMARY KEY (customer_id)
+);
+insert into Customers values ("b28","bob","m","Indonesia",27),("b29","Korea","f","Korea",43)
